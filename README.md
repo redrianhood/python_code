@@ -5,9 +5,8 @@ Learning to automate with Python
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine
-for development and testing purposes. See deployment for notes on how to deploy the project
-on a live system.
+Started with learning how to verson control projects in a lab environment, and how that translated to production.
+Also how it varied with personal project environments.
 
 ### Prerequisites
 
