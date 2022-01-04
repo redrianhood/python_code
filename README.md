@@ -5,8 +5,7 @@ Learning to automate with Python
 
 ## Getting Started
 
-Started with learning how to verson control projects in a lab environment, and how that translated to production.
-Also how it varied with personal project environments.
+Started with learning how to verson control projects in a linux environment, and how that translated to production.
 
 ### Prerequisites
 
