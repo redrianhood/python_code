@@ -35,7 +35,7 @@ def main():
     # }
 
     with open("devicecmd.json", "r") as data_file:
-        devicecmd = json.loads(data_file)
+        devicecmd = json.load(data_file)
 
     print("Welcome to the network device command pusher")  # welcome message
 
