@@ -44,17 +44,32 @@ def calculateCase(words: str):
     return [upper, lower]
 
 
+# check whether a string is a palindrome or not
+def isPalindrome(words: str) -> bool:
+    forward = words
+    backwards = words[::-1]
+    return True if (forward == backwards) else False
+
+
+# sample data
 sampleNumList1 = [2, 77, 109, 22, 543]
-sampleString = "Do you know the Muffin Man?"
+sampleString1 = "Do you know the Muffin Man?"
+sampleString2 = "racecar"
 
 
+# number functions
+print("Number functions: ")
 print("max of three numbers: ", maxOfThree(15, 600, 123))
 print("sum up a list: ", listSum(sampleNumList1))
 print("multiply all numbers in a list: ", listMult(sampleNumList1))
+print("in range?: ", isInRange(-101))
 
-caseResults = calculateCase(sampleString)
+
+# string functions
+print("\nString functions: ")
+caseResults = calculateCase(sampleString1)
 print(f"# of uppercase characters: {caseResults[0]}\n"
       f"# of lowercase characters: {caseResults[1]}")
-
-print("in range?: ", isInRange(-101))
+print("is first string a palindrome?: ", isPalindrome(sampleString1))
+print("is second string a palindrome?: ", isPalindrome(sampleString2))
 
