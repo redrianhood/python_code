@@ -31,12 +31,9 @@ def main():
     player2.roll()
 
     # determine the winner
-    # REEXAMINE, player.dice?
-    print("what is player1.dice?: ", player1.dice)
-    print("what is player2.dice?: ", player2.dice)
-    if sum(player1.dice) == sum(player2.dice):
+    if sum(player1.get_dice()) == sum(player2.get_dice()):
         print("Draw!")
-    elif sum(player1.dice) > sum(player2.dice):
+    elif sum(player1.get_dice()) > sum(player2.get_dice()):
         print("Player 1 wins!")
     else:
         print("Player 2 wins!")
